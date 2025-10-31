@@ -3,8 +3,8 @@ export default function handler(req, res) {
   const productHandle = req.url.split('/products/')[1];
 
   // Your Shopify domain
-  const shopifyDomain = 'celestialjewel.co.in';
-  const flutterAppScheme = 'celestialjewel://';
+  const shopifyDomain = 'mirrorglassworldwide.com';
+  const flutterAppScheme = 'mirrorglassworldwide://';
   const appStoreUrl = 'https://apps.apple.com/your-app-id'; // iOS App Store
   const playStoreUrl = 'https://play.google.com/store/apps/details?id=your.package.name'; // Google Play
 
@@ -68,7 +68,7 @@ export default function handler(req, res) {
     </script>
 </head>
 <body>
-    <p>Redirecting to Celestial Jewel app...</p>
+    <p>Redirecting to mirrorglassworldwide app...</p>
 </body>
 </html>
   `;
