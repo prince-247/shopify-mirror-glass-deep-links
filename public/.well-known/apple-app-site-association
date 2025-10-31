@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "com.celestial.jewel.com",
+        "appID": "com.mirror.glass.com",
         "paths": ["/product/*"]
       }
     ]
