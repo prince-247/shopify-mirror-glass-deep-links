@@ -5,7 +5,7 @@ export default function handler(req, res) {
   // Your Shopify domain
   const shopifyDomain = 'mirrorglassworldwide.com';
   const flutterAppScheme = 'mirrorglassworldwide://';
-  const appStoreUrl = 'https://apps.apple.com/your-app-id'; // iOS App Store
+  const appStoreUrl = 'https://apps.apple.com/in/app/mirror-glass-world-wide/id6752894020'; // iOS App Store
   const playStoreUrl = 'https://play.google.com/store/apps/details?id=your.package.name'; // Google Play
 
   // Get user agent to detect device
