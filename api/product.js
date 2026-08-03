@@ -49,7 +49,7 @@ export default function handler(req, res) {
       setTimeout(() => {
         if (!hasVisibilityChanged) {
           if (isIOS) {
-            window.location.replace(webUrl);  // ✅ open website if app not installed
+            window.location.replace(webUrl);
           } else if (isAndroid) {
             window.location.replace(playStore);
           } else {
